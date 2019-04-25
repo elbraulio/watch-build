@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "watch-build",
+    "version": "0.1.0",
+    "description": "watch out your project builds",
+    "content_scripts": [
+        {
+            "js": ["./js/index.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
